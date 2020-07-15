@@ -19,7 +19,6 @@ namespace studentSIMS.Models
         public string LastName { get; set; }
         public string EmailAddress { get; set; }
         public int PhoneNumber { get; set; }
-        [Timestamp]
         public DateTime TimeCreated { get; set; }
         
         public ICollection<Address> Addresses { get; set; }

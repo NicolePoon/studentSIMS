@@ -82,6 +82,7 @@ namespace studentSIMS.Controllers
         [HttpPost]
         public async Task<ActionResult<Student>> PostStudent(Student student)
         {
+            student.TimeCreated = DateTime.Now;
             _context.Student.Add(student);
             await _context.SaveChangesAsync();
 
