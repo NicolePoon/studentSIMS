@@ -20,8 +20,5 @@ namespace studentSIMS.Models
         public string City { get; set; }
         public int Postcode { get; set; }
         public string Country { get; set; }
-
-        //public virtual Student Student { get; set; }
-
     }
 }
