@@ -1,6 +1,7 @@
 # studentSIMS
-MSA-phase1-Database-and-API
-All the screenshots and explanations/notes
+--MSA-phase1-Database-and-API
+
+--All the screenshots and explanations/notes
 
 
 ## student_table with rows of example instances
